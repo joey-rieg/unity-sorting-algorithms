@@ -1,0 +1,22 @@
+{
+    "name": "com.joeyrieg.sorting-algorithms",
+    "displayName": "Sorting Algorithms",
+    "version": "0.0.1",
+    "unity": "2021.3",
+    "unityRelease": "0f1",
+    "description": "Collections of sorting algorithms.",
+    "keywords": [
+      "unity",
+      "sorting",
+      "algorithms"
+    ],
+    "author": {
+      "name": "Joey Rieg"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/joey-rieg/unity-sorting-algorithms"
+    },
+    "type": "library"
+  }
+  
