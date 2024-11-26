@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SortingAlgorithms
 {
-  public static class Algorithms
+  public static partial class Algorithms
   {
     public static void BubbleSort<T>(IList<T> list) where T : IComparable<T>
     {

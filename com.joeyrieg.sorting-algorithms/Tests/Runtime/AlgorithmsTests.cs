@@ -34,6 +34,7 @@ namespace SortingAlgorithms.Tests
       _algorithms = new()
       {
         Algorithms.BubbleSort,
+        Algorithms.QuickSort
       };
     }
 
@@ -60,6 +61,7 @@ namespace SortingAlgorithms.Tests
     {
       foreach (var algorithm in _algorithms)
       {
+        Debug.Log($"Testing {nameof(algorithm)}");
         algorithm(_unsortedValues);
         Assert.IsTrue(IsSorted(_unsortedValues));
         ResetUnsortedList();
