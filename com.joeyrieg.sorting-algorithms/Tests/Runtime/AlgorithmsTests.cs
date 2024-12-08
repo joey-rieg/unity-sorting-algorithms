@@ -34,7 +34,8 @@ namespace SortingAlgorithms.Tests
       _algorithms = new()
       {
         Algorithms.BubbleSort,
-        Algorithms.QuickSort
+        Algorithms.QuickSort,
+        Algorithms.MergeSort
       };
     }
 
